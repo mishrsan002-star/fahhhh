@@ -2073,13 +2073,13 @@
     window["c3_runtimeInterface"] = new self.RuntimeInterface({
       useWorker: enableWorker,
       workerMainUrl: "workermain.js",
-      engineScripts: ["scripts/c3runtime.js"],
+      engineScripts: ["https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/fish-eat-big/scripts/c3runtime.js"],
       projectScripts: [
         ["scripts/project/FrameRateLimit.js"],
         ["scripts/project/scriptsInEvents.js"]
       ],
       mainProjectScript: "scripts/project/FrameRateLimit.js",
-      scriptFolder: "scripts/",
+      scriptFolder: "https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/fish-eat-big/scripts/",
       workerDependencyScripts: [],
       exportType: "html5"
     })
