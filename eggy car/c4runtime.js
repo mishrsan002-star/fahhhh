@@ -4646,28 +4646,40 @@ quat4.str = function(a) {
     } else if (this.loaderstyle === 4) // c2 splash
     {
       var loaderC2logo_1024 = new Image();
+      loaderC2logo_1024.crossOrigin = "anonymous";
       loaderC2logo_1024.src = "";
       var loaderC2logo_512 = new Image();
+      loaderC2logo_512.crossOrigin = "anonymous";
       loaderC2logo_512.src = "";
       var loaderC2logo_256 = new Image();
+      loaderC2logo_256.crossOrigin = "anonymous";
       loaderC2logo_256.src = "";
       var loaderC2logo_128 = new Image();
+      loaderC2logo_128.crossOrigin = "anonymous";
       loaderC2logo_128.src = "";
       var loaderPowered_1024 = new Image();
+      loaderPowered_1024.crossOrigin = "anonymous";
       loaderPowered_1024.src = "";
       var loaderPowered_512 = new Image();
+      loaderPowered_512.crossOrigin = "anonymous";
       loaderPowered_512.src = "";
       var loaderPowered_256 = new Image();
+      loaderPowered_256.crossOrigin = "anonymous";
       loaderPowered_256.src = "";
       var loaderPowered_128 = new Image();
+      loaderPowered_128.crossOrigin = "anonymous";
       loaderPowered_128.src = "";
       var loaderWebsite_1024 = new Image();
+      loaderWebsite_1024.crossOrigin = "anonymous";
       loaderWebsite_1024.src = "";
       var loaderWebsite_512 = new Image();
+      loaderWebsite_512.crossOrigin = "anonymous";
       loaderWebsite_512.src = "";
       var loaderWebsite_256 = new Image();
+      loaderWebsite_256.crossOrigin = "anonymous";
       loaderWebsite_256.src = "";
       var loaderWebsite_128 = new Image();
+      loaderWebsite_128.crossOrigin = "anonymous";
       loaderWebsite_128.src = "";
       this.loaderlogos = {
         logo: [loaderC2logo_1024, loaderC2logo_512, loaderC2logo_256, loaderC2logo_128],
@@ -21871,6 +21883,7 @@ cr.plugins_.Sprite = function(runtime) {
   };
   Acts.prototype.LoadURL = function(url_, resize_, crossOrigin_) {
     var img = new Image();
+    img.crossOrigin = "anonymous";
     var self = this;
     var curFrame_ = this.curFrame;
     img.onload = function() {
@@ -23363,6 +23376,7 @@ cr.plugins_.TiledBg = function(runtime) {
   };
   Acts.prototype.LoadURL = function(url_, crossOrigin_) {
     var img = new Image();
+    img.crossOrigin = "anonymous";
     var self = this;
     img.onload = function() {
       self.texture_img = img;
