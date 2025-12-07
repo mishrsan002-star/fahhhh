@@ -293,7 +293,8 @@
       this.recording.recordKey(this.control.frame, keyCode, down, this.control.silent);
       var event = {
         which: keyCode,
-        preventDefault: function() {}
+        preventDefault: function() {},
+        stopPropagation: function() {}
       };
       if (down) {
         this.keydownHandler(event);
