@@ -2439,7 +2439,7 @@
     window["c3_runtimeInterface"] = new self.RuntimeInterface({
       useWorker: enableWorker,
       workerMainUrl: "workermain.js",
-      engineScripts: ["https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/tower-crash-3d/scripts/c3runtime.js"],
+      engineScripts: ["https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/stickman-fighto/scripts/c3runtime.js"],
       projectScripts: [["scripts/project/scriptsInEvents.js"]],
       mainProjectScript: "",
       scriptFolder: "scripts/",
